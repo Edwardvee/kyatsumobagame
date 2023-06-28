@@ -55,9 +55,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5e148de6cdf2d164aa3e3f90ce8c852c, type: 2}
+    - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+      propertyPath: finalDestination.x
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+      propertyPath: finalDestination.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+      propertyPath: finalDestination.z
+      value: 26
+      objectReference: {fileID: 0}
     - target: {fileID: 5060480474637736420, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
       propertyPath: m_Name
-      value: BlueMinionPrefab
+      value: BlueMinionPrefab Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
