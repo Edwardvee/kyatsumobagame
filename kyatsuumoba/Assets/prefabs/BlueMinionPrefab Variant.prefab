@@ -56,6 +56,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 5e148de6cdf2d164aa3e3f90ce8c852c, type: 2}
     - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+      propertyPath: isBlue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
       propertyPath: finalDestination.x
       value: 14
       objectReference: {fileID: 0}
@@ -71,5 +75,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueMinionPrefab Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5060480474637736420, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101298709963103448, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1934235876443912424, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+--- !u!1 &1711228706287708642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5060480474637736420, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
+  m_PrefabInstance: {fileID: 5874366679369117702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1997513117707889696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711228706287708642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dce6b78a43fbd344b3802da6c22e432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

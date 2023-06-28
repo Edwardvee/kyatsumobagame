@@ -7,12 +7,19 @@ public class MinionAI : MonoBehaviour
 {
     public Vector3 destination;
     public Vector3 finalDestination;
-
+    public bool isBlue;
 
     NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
     {
+        if (isBlue) {
+            this.gameObject.layer = 9;
+        }
+        else
+        {
+            this.gameObject.layer = 10;
+        }
         agent = this.GetComponent<NavMeshAgent>();
         agent.SetDestination(destination);
     }
