@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
       propertyPath: finalDestination.x
-      value: 14
+      value: -120
       objectReference: {fileID: 0}
     - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
       propertyPath: finalDestination.y
@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2765964695195282060, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
       propertyPath: finalDestination.z
-      value: 26
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 5060480474637736420, guid: 15ea51c8f1dc62e4b91a761ece5a0771, type: 3}
       propertyPath: m_Name
@@ -103,3 +103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dce6b78a43fbd344b3802da6c22e432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetList: []
+  minionAIScript: {fileID: 0}
+  isBlue: 0

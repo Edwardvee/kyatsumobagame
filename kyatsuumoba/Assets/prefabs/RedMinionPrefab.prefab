@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {x: 0, y: 0, z: 0}
-  finalDestination: {x: -27, y: 0, z: -27}
+  finalDestination: {x: 120, y: 1, z: 123}
   isBlue: 0
 --- !u!114 &-1934235876443912424
 MonoBehaviour:

@@ -28,10 +28,11 @@ public class MinionAI : MonoBehaviour
     void Update()
     {
         
-        if(this.transform.position.x >= 19 && this.transform.position.z <= -26){ 
+        if(this.transform.position.x >= 110 && this.transform.position.z <= -105)
+        { 
     agent.SetDestination(finalDestination);
             }
-        if (this.transform.position.x <= -34 && this.transform.position.z >= 26)
+        if (this.transform.position.x <= -110 && this.transform.position.z >= 115)
         {
             agent.SetDestination(finalDestination);
         }

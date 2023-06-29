@@ -7,10 +7,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public GameObject blueMinionPrefab;
     public GameObject redMinionPrefab;
-    public Vector3 blueSpawnLocation = new Vector3 (-27, 1, -27);   
-    public Vector3 redSpawnLocation = new Vector3 (14, 1, 26);
-    public Vector3 topLaneLocation = new Vector3(-34, 1, 26);
-    public Vector3 botLaneLocation = new Vector3(20, 1, -26);
+    public Vector3 blueSpawnLocation = new Vector3 (120, 1, 123);   
+    public Vector3 redSpawnLocation = new Vector3 (-120, 1, -115);
+    public Vector3 topLaneLocation = new Vector3(110, 1, -105);
+    public Vector3 botLaneLocation = new Vector3(-110, 1, 115);
     bool spawn = true;
     void Start()
     {
