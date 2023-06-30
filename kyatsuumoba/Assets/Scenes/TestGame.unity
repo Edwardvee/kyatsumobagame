@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 845431854}
   - component: {fileID: 845431859}
   - component: {fileID: 845431860}
+  - component: {fileID: 845431861}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -366,6 +367,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1795607445}
+--- !u!114 &845431861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845431851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661309556597045409da1db4eecc507b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 9
+  baseHealth: 500
+  currentHealth: 500
+  atkDmg: 50
+  exp: 0
+  expToLvlUp: 25
+  magicDmg: 10
+  armor: 50
+  magicRes: 20
+  atkSpeed: 1
+  level: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
